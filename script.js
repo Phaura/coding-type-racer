@@ -229,6 +229,7 @@ function resetTest() {
     errors = 0;
     textContainer.scrollLeft = 0;
     longText = generateLongText();
+    typingStarted = false; 
     init();
 }
 
