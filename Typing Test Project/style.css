@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     height: 100vh;
-    background: rgb(161, 161, 161);
+    background: rgb(240, 218, 198);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -54,6 +54,10 @@ button {
 
 button:hover {
     filter: brightness(1.4);
+}
+
+span {
+    min-width: 14px;
 }
 
 
